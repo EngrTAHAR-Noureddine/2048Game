@@ -1,6 +1,6 @@
 
 // ignore: constant_identifier_names
-enum Move {LEFT, RIGHT ,UP, DOWN,STILL}
+enum Move {LEFT, RIGHT ,UP, DOWN,STILL,INIT}
 
 
 class ActionModel {
