@@ -11,7 +11,7 @@ import '../../controller/GameController.dart';
 import '../../model/Board.dart';
 
 class GameHome extends StatelessWidget {
-  const GameHome({Key? key}) : super(key: key);
+  const GameHome({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -150,9 +150,9 @@ class GameHome extends StatelessWidget {
                     onPressed: null,
                     style: ButtonStyle(
                         backgroundColor:
-                            MaterialStateProperty.all<Color>(textColor),
+                            WidgetStateProperty.all<Color>(textColor),
                         shape:
-                            MaterialStateProperty.all<RoundedRectangleBorder>(
+                            WidgetStateProperty.all<RoundedRectangleBorder>(
                                 RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(18.0),
                         ))),
@@ -186,7 +186,7 @@ class GameHome extends StatelessWidget {
 }
 
 class GameGrid extends StatelessWidget {
-  const GameGrid({Key? key}) : super(key: key);
+  const GameGrid({super.key});
 
   @override
   Widget build(BuildContext context) {

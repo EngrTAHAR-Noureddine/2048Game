@@ -14,7 +14,7 @@ class MainStore{
 
   late Store<MainState> store;
 
-  initialize(){
+  void initialize(){
 
     store = Store<MainState>(
       mainReducer ,
